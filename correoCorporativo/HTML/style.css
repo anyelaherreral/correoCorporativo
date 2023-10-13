@@ -1,0 +1,65 @@
+*{
+    /* borde exterior */
+    margin: 0;
+    /* borde interior */
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* color de fondo */
+    background-color: blueviolet;
+    /* ancho */
+    width: 100%;
+    /* convierte flex el contenedor y sus hijos, tambien los puede dejar uno a un lado del otro */
+    display: flex;
+    /* alinear verticalmente (acompañado del fel, sin flex no funciona )*/
+    align-items: center;
+    /* alto */
+     min-height: 100vh; /* vierport height  (acompañado del fel, sin flex no funciona ) */
+     /* alinear horizontal */
+     justify-content: center;
+
+}
+section{
+    /* arriba derecha abajo izquierda */
+    padding: 2.3rem ;
+}
+section article{
+    /* parra linea separadora */
+    margin-bottom: 2rem;
+    /* parra linea separadora */
+    /* padding: 2rem;
+    border-bottom: 3px solid red; */
+}
+figure{
+    /* para dejarlo al lado del texto */
+    display: flex ;
+}
+figure figcaption p{
+    margin-top: 1.3rem;
+    /* color de texto */
+    color: gray;
+}
+main{
+    background-color: aliceblue;
+    width: 40%;
+}
+
+.rounded-md{
+    border-radius: 1rem;
+}
+
+.list-icons{
+    /* para quitar punticos */
+    list-style: none;
+}
+i{
+    font-size: 1.3rem;
+}
+.flex{
+    display: flex;
+}
+
+.gap-2{
+    gap: 1rem;
+}
